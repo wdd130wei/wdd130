@@ -166,7 +166,6 @@ nav a:hover {
     grid-column: 7/11;
     grid-row: 10/11;
 }
-
 footer {
     background-color:white;
     padding: 25px 50px;
@@ -193,3 +192,22 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #E79115;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
